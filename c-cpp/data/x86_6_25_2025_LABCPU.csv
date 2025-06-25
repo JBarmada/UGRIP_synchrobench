@@ -1,0 +1,32 @@
+Benchmark,Threads,InitialSize,UpdateRate,AvgThroughput_Kops_s,AvgAborts
+ESTM-hashtable,4,1024,10,13366.582,1069.5
+lockfree-hashtable,4,1024,10,23407.408,
+MUTEX-hashtable,4,1024,10,17497.209,
+ESTM-skiplist,4,1024,10,6620.616,13367.5
+lockfree-fraser-skiplist,4,1024,10,11027.674,
+lockfree-rotating-skiplist,4,1024,10,17808.096,
+lockfree-nohotspot-skiplist,4,1024,10,12989.638,
+ESTM-linkedlist,4,1024,10,742.184,297.5
+ESTM-rbtree,4,1024,10,9872.990,32135.0
+sequential-hashtable,1,1024,10,18316.966,
+sequential-linkedlist,1,1024,10,1532.120,
+sequential-rbtree,1,1024,10,12102.217,
+sequential-skiplist,1,1024,10,10570.217,
+
+# CPU information
+# model name: AMD EPYC 9654 96-Core Processor
+# CPU(s): 384
+# Core(s) per socket:   96
+# Thread(s) per core:   2
+# CPU max MHz:          3707.8120
+# CPU min MHz:          1500.0000
+# Caches (sum of all):
+#  L1d:                    6 MiB (192 instances)
+#  L1i:                    6 MiB (192 instances)
+#  L2:                     192 MiB (192 instances)
+#  L3:                     768 MiB (24 instances)
+
+#free -h
+#               total        used        free      shared  buff/cache   available
+#Mem:           1.5Ti       235Gi       473Gi       255Mi       801Gi       1.2Ti
+#Swap:           31Gi        31Gi          0B

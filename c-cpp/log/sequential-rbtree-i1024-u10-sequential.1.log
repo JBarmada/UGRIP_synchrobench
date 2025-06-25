@@ -1,0 +1,54 @@
+Set type     : red-black tree
+Duration     : 5000
+Initial size : 1024
+Nb threads   : 1
+Value range  : 2048
+Seed         : 0
+Update rate  : 10
+Elasticity   : 4
+Alternate    : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Initializing STM
+Adding 1024 entries to set
+Set size     : 1024
+Creating thread 0
+STARTING...
+STOPPING...
+0 threads terminated
+Thread 0
+  #add        : 3030866
+    #added    : 1514643
+  #remove     : 3028770
+    #removed  : 1514642
+  #contains   : 54536796
+    #found    : 27281346
+  #aborts     : 0
+    #lock-r   : 0
+    #lock-w   : 0
+    #val-r    : 0
+    #val-w    : 0
+    #val-c    : 0
+    #inv-mem  : 0
+    #realloc  : 0
+    #r-over   : 0
+  #lr-ok      : 0
+  #lr-failed  : 0
+  Max retries : 0
+Set size      : 1025 (expected: 1025)
+Duration      : 5000 (ms)
+#txs          : 60596432 (12119286.400000 / s)
+#read txs     : 54536796 (10907359.200000 / s)
+#eff. upd rate: 4.999114 
+#update txs   : 6059636 (1211927.200000 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #realloc    : 0 (0.000000 / s)
+  #r-over     : 0 (0.000000 / s)
+#lr-ok        : 0 (0.000000 / s)
+#lr-failed    : 0 (0.000000 / s)
+Max retries   : 0

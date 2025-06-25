@@ -32,7 +32,7 @@ __thread unsigned int *rng_seed;
 #else /* ! TLS */
 pthread_key_t rng_seed_key;
 #endif /* ! TLS */
-unsigned int levelmax;
+extern unsigned int levelmax;
 
 typedef struct barrier {
   pthread_cond_t complete;

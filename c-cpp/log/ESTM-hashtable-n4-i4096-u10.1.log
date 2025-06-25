@@ -1,0 +1,129 @@
+Set type     : lock-free hash table
+Duration     : 5000
+Initial size : 4096
+Nb threads   : 4
+Value range  : 8192
+Seed         : 0
+Update rate  : 10
+Load factor  : 1
+Move rate    : 0
+Snapshot rate: 0
+Elasticity   : 4
+Alternate    : 0
+Effective    : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Initializing STM
+Adding 4096 entries to set
+Set size     : 4096
+Bucket amount: 4096
+Load         : 1
+Creating thread 0
+Creating thread 1
+Creating thread 2
+Creating thread 3
+STARTING...
+STOPPING...
+Thread 0
+  #add        : 1024508
+    #added    : 512313
+  #remove     : 1022481
+    #removed  : 512312
+  #contains   : 18435236
+    #found    : 9222812
+  #move       : 0
+  #moved      : 0
+  #snapshot   : 0
+  #snapshoted : 0
+  #aborts     : 69
+    #lock-r   : 0
+    #lock-w   : 28
+    #val-r    : 0
+    #val-w    : 38
+    #val-c    : 0
+    #inv-mem  : 0
+    #dup-w  : 0
+    #failures : 0
+  Max retries : 1
+Thread 1
+  #add        : 779153
+    #added    : 389379
+  #remove     : 777789
+    #removed  : 389378
+  #contains   : 14017825
+    #found    : 7010923
+  #move       : 0
+  #moved      : 0
+  #snapshot   : 0
+  #snapshoted : 0
+  #aborts     : 72
+    #lock-r   : 0
+    #lock-w   : 23
+    #val-r    : 0
+    #val-w    : 45
+    #val-c    : 0
+    #inv-mem  : 0
+    #dup-w  : 0
+    #failures : 0
+  Max retries : 1
+Thread 2
+  #add        : 404338
+    #added    : 201655
+  #remove     : 402892
+    #removed  : 201655
+  #contains   : 7269750
+    #found    : 3635024
+  #move       : 0
+  #moved      : 0
+  #snapshot   : 0
+  #snapshoted : 0
+  #aborts     : 41
+    #lock-r   : 0
+    #lock-w   : 8
+    #val-r    : 0
+    #val-w    : 30
+    #val-c    : 0
+    #inv-mem  : 0
+    #dup-w  : 0
+    #failures : 0
+  Max retries : 1
+Thread 3
+  #add        : 843730
+    #added    : 420682
+  #remove     : 839878
+    #removed  : 420682
+  #contains   : 15147389
+    #found    : 7575573
+  #move       : 0
+  #moved      : 0
+  #snapshot   : 0
+  #snapshoted : 0
+  #aborts     : 64
+    #lock-r   : 0
+    #lock-w   : 17
+    #val-r    : 0
+    #val-w    : 40
+    #val-c    : 0
+    #inv-mem  : 0
+    #dup-w  : 0
+    #failures : 0
+  Max retries : 1
+Set size      : 4098 (expected: 4098)
+Duration      : 5000 (ms)
+#txs          : 60964969 (12192993.800000 / s)
+#read txs     : 54870200 (10974040.000000 / s)
+#eff. upd rate: 4.999684 
+#update txs   : 6094769 (1218953.800000 / s)
+#move txs     : 0 (0.000000 / s)
+  #moved      : 0 (0.000000 / s)
+#snapshot txs : 0 (0.000000 / s)
+  #snapshoted : 0 (0.000000 / s)
+#aborts       : 246 (49.200000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 76 (15.200000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 153 (30.600000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #dup-w      : 0 (0.000000 / s)
+  #failures   : 0
+Max retries   : 1

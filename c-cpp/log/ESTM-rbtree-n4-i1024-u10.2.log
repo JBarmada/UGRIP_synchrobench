@@ -1,0 +1,117 @@
+Set type     : red-black tree
+Duration     : 5000
+Initial size : 1024
+Nb threads   : 4
+Value range  : 2048
+Seed         : 0
+Update rate  : 10
+Elasticity   : 4
+Alternate    : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Initializing STM
+Adding 1024 entries to set
+Set size     : 1024
+Creating thread 0
+Creating thread 1
+Creating thread 2
+Creating thread 3
+STARTING...
+STOPPING...
+0 threads terminated
+1 threads terminated
+2 threads terminated
+3 threads terminated
+Thread 0
+  #add        : 608461
+    #added    : 303679
+  #remove     : 605694
+    #removed  : 303679
+  #contains   : 10915283
+    #found    : 5467859
+  #aborts     : 5265
+    #lock-r   : 282
+    #lock-w   : 208
+    #val-r    : 350
+    #val-w    : 485
+    #val-c    : 15
+    #inv-mem  : 0
+    #realloc  : 0
+    #r-over   : 0
+  #lr-ok      : 0
+  #lr-failed  : 0
+  Max retries : 5
+Thread 1
+  #add        : 542569
+    #added    : 271087
+  #remove     : 542007
+    #removed  : 271086
+  #contains   : 9770659
+    #found    : 4892686
+  #aborts     : 5093
+    #lock-r   : 292
+    #lock-w   : 198
+    #val-r    : 323
+    #val-w    : 471
+    #val-c    : 12
+    #inv-mem  : 0
+    #realloc  : 0
+    #r-over   : 0
+  #lr-ok      : 0
+  #lr-failed  : 0
+  Max retries : 5
+Thread 2
+  #add        : 703128
+    #added    : 350797
+  #remove     : 699846
+    #removed  : 350796
+  #contains   : 12627944
+    #found    : 6326071
+  #aborts     : 5286
+    #lock-r   : 296
+    #lock-w   : 205
+    #val-r    : 316
+    #val-w    : 471
+    #val-c    : 12
+    #inv-mem  : 0
+    #realloc  : 0
+    #r-over   : 0
+  #lr-ok      : 0
+  #lr-failed  : 0
+  Max retries : 6
+Thread 3
+  #add        : 636477
+    #added    : 317808
+  #remove     : 634527
+    #removed  : 317808
+  #contains   : 11458318
+    #found    : 5737476
+  #aborts     : 5154
+    #lock-r   : 264
+    #lock-w   : 239
+    #val-r    : 346
+    #val-w    : 531
+    #val-c    : 20
+    #inv-mem  : 0
+    #realloc  : 0
+    #r-over   : 0
+  #lr-ok      : 0
+  #lr-failed  : 0
+  Max retries : 5
+Set size      : 1026 (expected: 1026)
+Duration      : 5000 (ms)
+#txs          : 49744913 (9948982.600000 / s)
+#read txs     : 44772204 (8954440.800000 / s)
+#eff. upd rate: 4.998984 
+#update txs   : 4972709 (994541.800000 / s)
+#aborts       : 20798 (4159.600000 / s)
+  #lock-r     : 1134 (226.800000 / s)
+  #lock-w     : 850 (170.000000 / s)
+  #val-r      : 1335 (267.000000 / s)
+  #val-w      : 1958 (391.600000 / s)
+  #val-c      : 59 (11.800000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #realloc    : 0 (0.000000 / s)
+  #r-over     : 0 (0.000000 / s)
+#lr-ok        : 0 (0.000000 / s)
+#lr-failed    : 0 (0.000000 / s)
+Max retries   : 6

@@ -1,0 +1,87 @@
+Set type     : skip list
+Duration     : 5000
+Initial size : 1024
+Nb threads   : 32
+Value range  : 2048
+Seed         : 0
+Update rate  : 0
+Elasticity   : 4
+Alternate    : 0
+Efffective   : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+_init_set_subsystem() done
+Initializing STM
+Adding 1024 entries to set
+i = 1024
+Set size     : 1024
+Level max    : 10
+Creating thread 0
+Creating thread 1
+Creating thread 2
+Creating thread 3
+Creating thread 4
+Creating thread 5
+Creating thread 6
+Creating thread 7
+Creating thread 8
+Creating thread 9
+Creating thread 10
+Creating thread 11
+Creating thread 12
+Creating thread 13
+Creating thread 14
+Creating thread 15
+Creating thread 16
+Creating thread 17
+Creating thread 18
+Creating thread 19
+Creating thread 20
+Creating thread 21
+Creating thread 22
+Creating thread 23
+Creating thread 24
+Creating thread 25
+Creating thread 26
+Creating thread 27
+Creating thread 28
+Creating thread 29
+Creating thread 30
+Creating thread 31
+STARTING...
+STOPPING...
+Set size      : 1024 (expected: 1024)
+Duration      : 5001 (ms)
+#txs          : 102552042 (20506307.138572 / s)
+#read txs     : 102552042 (20506307.138572 / s)
+#eff. upd rate: 0.000000 
+#update txs   : 0 (0.000000 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #dup-w      : 0 (0.000000 / s)
+  #failures   : 0
+Max retries   : 0
+Nodes at level 18 = 1
+Nodes at level 17 = 1
+Nodes at level 16 = 1
+Nodes at level 15 = 1
+Nodes at level 14 = 1
+Nodes at level 13 = 1
+Nodes at level 12 = 1
+Nodes at level 11 = 1
+Nodes at level 10 = 1
+Nodes at level 9 = 1
+Nodes at level 8 = 2
+Nodes at level 7 = 4
+Nodes at level 6 = 6
+Nodes at level 5 = 17
+Nodes at level 4 = 33
+Nodes at level 3 = 65
+Nodes at level 2 = 129
+Nodes at level 1 = 257
+Nodes at level 0 = 513
+Nodes at level -1 = 1025

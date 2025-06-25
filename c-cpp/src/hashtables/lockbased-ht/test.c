@@ -23,7 +23,7 @@
 
 #include "hashtable-lock.h"
 
-unsigned int maxhtlength;
+extern unsigned int maxhtlength;
 
 typedef struct barrier {
 	pthread_cond_t complete;

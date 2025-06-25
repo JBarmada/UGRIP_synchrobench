@@ -1,0 +1,58 @@
+Set type     : hash table
+Duration     : 5000
+Initial size : 4096
+Nb threads   : 1
+Value range  : 8192
+Seed         : 0
+Update rate  : 10
+Load factor  : 1
+Move rate    : 0
+Snapshot rate: 0
+Lock alg.    : 2
+Alternate    : 0
+Effective    : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Adding 4096 entries to set
+Set size     : 4096
+Bucket amount: 4096
+Load         : 1
+Creating thread 0
+STARTING...
+STOPPING...
+Thread 0
+  #add        : 3680142
+    #added    : 1840115
+  #remove     : 3677779
+    #removed  : 1840114
+  #contains   : 66223857
+    #found    : 33111036
+  #move       : 0
+  #moved      : 0
+  #snapshot   : 0
+  #snapshoted : 0
+  #aborts     : 0
+    #lock-r   : 0
+    #lock-w   : 0
+    #val-r    : 0
+    #val-w    : 0
+    #val-c    : 0
+    #inv-mem  : 0
+  Max retries : 0
+Set size      : 4097 (expected: 4097)
+Duration      : 5000 (ms)
+#txs          : 73581778 (14716355.600000 / s)
+#read txs     : 66223857 (13244771.400000 / s)
+#eff. upd rate: 5.001549 
+#update txs   : 7357921 (1471584.200000 / s)
+#move txs     : 0 (0.000000 / s)
+  #moved      : 0 (0.000000 / s)
+#snapshot txs : 0 (0.000000 / s)
+  #snapshoted : 0 (0.000000 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+Max retries   : 0

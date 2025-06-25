@@ -1,0 +1,35 @@
+Set type     : skip list
+Duration     : 5000
+Initial size : 8192
+Nb threads   : 1
+Value range  : 16384
+Seed         : 0
+Update rate  : 10
+Elasticity   : 4
+Alternate    : 0
+Efffective   : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Initializing STM
+Adding 8192 entries to set
+Set size     : 8192
+Level max    : 13
+Number of levels is 13
+Creating thread 0
+STARTING...
+STOPPING...
+Set size      : 8193 (expected: 8193)
+Duration      : 5000 (ms)
+#txs          : 23360629 (4672125.800000 / s)
+#read txs     : 21024259 (4204851.800000 / s)
+#eff. upd rate: 5.000435 
+#update txs   : 2336370 (467274.000000 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #dup-w      : 0 (0.000000 / s)
+  #failures   : 0
+Max retries   : 0

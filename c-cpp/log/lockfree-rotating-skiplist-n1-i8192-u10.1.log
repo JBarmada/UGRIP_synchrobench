@@ -1,0 +1,58 @@
+Set type     : skip list
+Duration     : 5000
+Initial size : 8192
+Nb threads   : 1
+Value range  : 16384
+Seed         : 0
+Update rate  : 10
+Elasticity   : 4
+Alternate    : 0
+Efffective   : 0
+Mono int     : 0
+Reverse int  : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Initializing STM
+Adding 8192 entries to set
+Set size     : 8192
+Level max    : 13
+Number of levels is 13
+Creating thread 0
+STARTING...
+STOPPING...
+Set size      : 8193 (expected: 8193)
+Duration      : 5000 (ms)
+#txs          : 33403955 (6680791.000000 / s)
+#read txs     : 30065183 (6013036.600000 / s)
+#eff. upd rate: 4.996824 
+#update txs   : 3338772 (667754.400000 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #dup-w      : 0 (0.000000 / s)
+  #failures   : 0
+Max retries   : 0
+Loops = 96
+Raises = 0
+Levels = 13
+Lowers = 0
+Delete Attempts = 323123
+Delete Succeeds = 298109
+Should delete = 0
+inodes at level 13 = 1
+inodes at level 12 = 2
+inodes at level 11 = 4
+inodes at level 10 = 8
+inodes at level 9 = 16
+inodes at level 8 = 32
+inodes at level 7 = 64
+inodes at level 6 = 128
+inodes at level 5 = 256
+inodes at level 4 = 539
+inodes at level 3 = 1250
+inodes at level 2 = 2979
+inodes at level 1 = 7021
+nodes at level 0 = 12232

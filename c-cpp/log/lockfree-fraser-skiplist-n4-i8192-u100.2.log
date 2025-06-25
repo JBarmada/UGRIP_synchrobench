@@ -1,0 +1,59 @@
+Set type     : skip list
+Duration     : 5000
+Initial size : 8192
+Nb threads   : 4
+Value range  : 16384
+Seed         : 0
+Update rate  : 100
+Elasticity   : 4
+Alternate    : 0
+Efffective   : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+_init_set_subsystem() done
+Initializing STM
+Adding 8192 entries to set
+i = 8192
+Set size     : 8192
+Level max    : 13
+Creating thread 0
+Creating thread 1
+Creating thread 2
+Creating thread 3
+STARTING...
+STOPPING...
+Set size      : 8193 (expected: 8193)
+Duration      : 5000 (ms)
+#txs          : 17203469 (3440693.800000 / s)
+#read txs     : 0 (0.000000 / s)
+#eff. upd rate: 49.994283 
+#update txs   : 17203469 (3440693.800000 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #dup-w      : 0 (0.000000 / s)
+  #failures   : 0
+Max retries   : 0
+Nodes at level 18 = 1
+Nodes at level 17 = 1
+Nodes at level 16 = 1
+Nodes at level 15 = 1
+Nodes at level 14 = 1
+Nodes at level 13 = 1
+Nodes at level 12 = 1
+Nodes at level 11 = 1
+Nodes at level 10 = 4
+Nodes at level 9 = 7
+Nodes at level 8 = 14
+Nodes at level 7 = 28
+Nodes at level 6 = 64
+Nodes at level 5 = 125
+Nodes at level 4 = 250
+Nodes at level 3 = 495
+Nodes at level 2 = 999
+Nodes at level 1 = 2016
+Nodes at level 0 = 4040
+Nodes at level -1 = 8194

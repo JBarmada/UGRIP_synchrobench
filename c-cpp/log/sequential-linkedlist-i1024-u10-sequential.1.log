@@ -1,0 +1,50 @@
+Bench type   : linked list
+Duration     : 5000
+Initial size : 1024
+Nb threads   : 1
+Value range  : 2048
+Seed         : 0
+Update rate  : 10
+Elasticity   : 4
+Alternate    : 0
+Effective    : 0
+Type sizes   : int=4/long=8/ptr=8/word=8
+Initializing STM
+Adding 1024 entries to set
+Set size     : 1024
+Creating thread 0
+STARTING...
+STOPPING...
+Thread 0
+  #add        : 385126
+    #added    : 192610
+  #remove     : 384023
+    #removed  : 192609
+  #contains   : 6919094
+    #found    : 3457636
+  #aborts     : 0
+    #lock-r   : 0
+    #lock-w   : 0
+    #val-r    : 0
+    #val-w    : 0
+    #val-c    : 0
+    #inv-mem  : 0
+    #inv-mem  : 0
+    #failures : 0
+  Max retries : 0
+Set size      : 1025 (expected: 1025)
+Duration      : 5001 (ms)
+#txs          : 7688243 (1537341.131774 / s)
+#read txs     : 6919094 (1383542.091582 / s)
+#eff. upd rate: 5.010495 
+#update txs   : 769149 (153799.040192 / s)
+#aborts       : 0 (0.000000 / s)
+  #lock-r     : 0 (0.000000 / s)
+  #lock-w     : 0 (0.000000 / s)
+  #val-r      : 0 (0.000000 / s)
+  #val-w      : 0 (0.000000 / s)
+  #val-c      : 0 (0.000000 / s)
+  #inv-mem    : 0 (0.000000 / s)
+  #dup-w      : 0 (0.000000 / s)
+  #failures   : 0
+Max retries   : 0
